@@ -1,0 +1,52 @@
+.body {
+  background-image: radial-gradient(circle, #cac7cb 0%, #272828 100%);
+}
+
+.intro {
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+}
+
+.footer {
+    background-color:#4a4a4a;
+    text-align: right;
+}
+
+.spin {
+    animation-name: spinning;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    /* linear | ease | ease-in | ease-out | ease-in-out */
+    animation-timing-function: linear;
+  }
+
+  @keyframes spinning {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }
+  }
+
+  .bio {
+    font-weight: bold;
+  }
+
+  #uc {
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+  }
+
+  .play {
+    text-align: center;
+    font-family: Stencil Std, fantasy;
+    font-size: large;
+    margin-top: 50px;
+  }
+
+  #pongCanvas {
+    background-color: rgb(111, 25, 5);
+  }
+
+  .modal-body {
+    text-align: center;
+  }
+
+  
